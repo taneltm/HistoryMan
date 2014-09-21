@@ -11,14 +11,14 @@ Can be used with Node.js or as a RequireJS modUle.
 Public functions
 ----------------
 ```
-add(state)
-getStateAt(pointer)
-getCurrentState()
-getPrevState()
-getNextState()
-getPointer()
-clear()
-clear(pointer)
+add(state)          -> pointer
+getPointer()        -> pointer
+clear()             -> pointer || null
+clear(pointer)      -> pointer || null
+getStateAt(pointer) -> state   || null
+getCurrentState()   -> state   || null
+getPrevState()      -> state   || null
+getNextState()      -> state   || null
 ```
 
 Usage example

@@ -42,14 +42,14 @@
  * 		// "#downloads/1", "#downloads/2" and "#about"
  * 		
  * Public functions:
- * 		add(state)
- * 		getStateAt(pointer)
- * 		getCurrentState()
- * 		getPrevState()
- * 		getNextState()
- * 		getPointer()
- * 		clear()
- * 		clear(pointer)
+ * 		add(state)          -> pointer
+ * 		getPointer()        -> pointer
+ * 		clear()             -> pointer || null
+ * 		clear(pointer)      -> pointer || null
+ * 		getStateAt(pointer) -> state   || null
+ * 		getCurrentState()   -> state   || null
+ * 		getPrevState()      -> state   || null
+ * 		getNextState()      -> state   || null
  */
 
 (function(root, factory) {
