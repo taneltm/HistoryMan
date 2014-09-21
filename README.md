@@ -24,6 +24,9 @@ getNextState()      -> state   || null
 Usage example
 -------------
 ```
+// Load (in Node.js)
+var HistoryMan = require('./HistoryMan');
+
 // Initialize
 var history = new HistoryMan();
 
