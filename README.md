@@ -41,7 +41,7 @@ var state = history.getPrevState();
 console.log(state); // > {"route": "#downloads/3"}
 
 // Redo
-var state = history.getPrevState();
+var state = history.getNextState();
 console.log(state); // > {"route": "#downloads/4"}
 
 // Get specific state
