@@ -6,7 +6,7 @@ Simple Javascript History Manager
 History manager can be used to keep track of application state.  
 It can also be used in places where an Undo/Redo framework doesn't quite fit.  
 
-Can be used with Node.js or as a RequireJS modUle.
+Can be used with Node.js or as a RequireJS module.
 
 Public functions
 ----------------
